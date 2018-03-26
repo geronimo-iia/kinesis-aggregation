@@ -7,7 +7,7 @@ These Kinesis Aggregation and Deaggregation modules provide a simple interface f
 The Node.js record aggregation/deaggregation modules are available on NPM as [aws-kinesis-agg](https://www.npmjs.com/package/aws-kinesis-agg).  To get started, include the `aws-kinesis-agg` module from npm into your new or existing NodeJS application:
 
 ```
-var agg = require('aws-kinesis-agg');
+var agg = require('aws-kinesis-agg-fix');
 ```
 
 ## Record Deaggregation
@@ -24,7 +24,7 @@ When using deaggregation, you provide a single aggregated Kinesis Record and get
 }
 ```
 
-When you receive a Kinesis Record in your consumer application, you will extract the User Records using deaggregation methods in the `aws-kinesis-agg` module.  The `aws-kinesis-agg` module provides both syncronous and asyncronous methods of deaggregating records.
+When you receive a Kinesis Record in your consumer application, you will extract the User Records using deaggregation methods in the `aws-kinesis-agg-fix` module.  The `aws-kinesis-agg-fix` module provides both syncronous and asyncronous methods of deaggregating records.
 
 ### Synchronous
 
